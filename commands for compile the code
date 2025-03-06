@@ -1,0 +1,4 @@
+python -m venv venv  # to create a virtual environment
+venv\scripts\activate  # to activate the virtual environment
+pip install -r requirements.txt # to install the requirements for the project
+streamlit run file name # to run the code in streamlit
