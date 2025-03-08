@@ -13,7 +13,6 @@ prompt1 = ChatPromptTemplate.from_messages([
    ("user","give a precise answer to the question{question}") 
 ])
 
-#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
 #llama-3.3-70b-versatile
 
 
@@ -21,7 +20,7 @@ prompt1 = ChatPromptTemplate.from_messages([
 
 llm = ChatGroq(
     model = "gemma2-9b-it",
-    groq_api_key="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",
+    groq_api_key="X",
     temperature = 0
 )
 
